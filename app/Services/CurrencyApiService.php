@@ -3,20 +3,28 @@
 namespace App\Services;
 
 use Illuminate\Support\Facades\Http;
-use App\DataObjects\Currency as CurrencyDTO;
 
 class CurrencyApiService
 {
     const URL = 'https://blockchain.info/ticker';
 
+    /**
+     * @var array
+     */
     protected $currencies = [];
 
+    /**
+     * @return array|mixed
+     */
     private function getCurrencyJson()
     {
         $response = Http::get(self::URL);
         return $response->json();
     }
 
+    /**
+     * @param $data
+     */
     private function prepareData($data)
     {
         foreach ($data as $currencyName => $currencyData) {
@@ -30,6 +38,9 @@ class CurrencyApiService
         }
     }
 
+    /**
+     * @return array
+     */
     public function getCurrencies()
     {
         $json = $this->getCurrencyJson();
