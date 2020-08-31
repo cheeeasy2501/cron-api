@@ -1,0 +1,46 @@
+version: "3"
+
+volumes:
+  my-db:
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/nginx/Dockerfile
+    ports:
+      - 8099:80
+    links:
+      - php-fpm
+    volumes:
+      - ./:/var/www/html
+
+
+  php-fpm:
+    build:
+      context: .
+      dockerfile: docker/php-fpm/Dockerfile
+    volumes:
+      - ./:/var/www/html
+    links:
+      - mysql
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/cron/Dockerfile
+    container_name: laravel-scheduler
+    volumes:
+      - .:/var/www/html
+
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 33060:3306
+    environment:
+      - MYSQL_DATABASE=laravel
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - my-db:/var/lib/mysql
