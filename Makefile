@@ -2,7 +2,7 @@ CURRENT_ID=$([[ $(id -u) -gt 9999 ]] && echo "root" || id -u)
 CURRENT_GROUP=$([[ $(id -g) -gt 9999 ]] && echo "root" || id -g)
 
 DC := CURRENT_USER=${CURRENT_ID}:${CURRENT_GROUP} docker-compose
-FPM := $(DC) exec phpfpm
+FPM := $(DC) exec php-fpm
 ARTISAN := $(FPM) php artisan
 
 env:
@@ -26,4 +26,7 @@ migrate:
 composer-install:
 	@$(FPM) composer install
 
-deploy: env start composer-install keygen migrate
+dump-autoload:
+	@$(FPM) composer dump-autoload
+
+deploy: env build start composer-install dump-autoload keygen migrate
