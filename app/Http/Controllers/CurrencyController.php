@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\CurrencyApiService;
 use App\Repositories\CurrencyRepository;
+use Illuminate\Routing\Controller;
 
 class CurrencyController extends Controller
 {
@@ -15,6 +16,6 @@ class CurrencyController extends Controller
     {
         $currencies = $currencyApiService->getCurrencies();
         $currencyRepository->saveMany($currencies);
-        echo json_encode($currencies);
+        return response()->json($currencies);
     }
 }
