@@ -32,6 +32,8 @@ services:
     container_name: laravel-scheduler
     volumes:
       - .:/var/www/html
+    links:
+      - mysql
 
   mysql:
     image: mysql:5.7

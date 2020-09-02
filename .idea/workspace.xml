@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="82874030-cc13-4d3d-87d3-feae9c51fe0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CurrencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CurrencyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/CurrencyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/CurrencyRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CurrencyApiService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CurrencyApiService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/cron/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/cron/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/cron/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/cron/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +166,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -160,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="F:\work\OSPanel\domains\cron-api" />
     </key>
   </component>
@@ -169,7 +194,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -182,33 +207,73 @@
       <updated>1598704849806</updated>
       <workItem from="1598704851318" duration="9718000" />
       <workItem from="1598875845414" duration="15682000" />
+      <workItem from="1598977529797" duration="5293000" />
+      <workItem from="1598983763829" duration="268000" />
+      <workItem from="1598984048799" duration="424000" />
+      <workItem from="1599070359096" duration="12981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="199" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599074212217">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="468" y="199" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1599074212217" />
+    <state x="583" y="340" width="559" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598978428219">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="583" y="340" width="559" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1598978428219" />
     <state x="678" y="264" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1598706499924">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="678" y="264" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1598706499924" />
-    <state width="1637" height="419" key="GridCell.Tab.0.bottom" timestamp="1598890574884">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="553" y="62" width="622" height="951" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599072471536">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="553" y="62" width="622" height="951" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1599072471536" />
+    <state x="606" y="295" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599072655139">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="606" y="295" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1599072655139" />
+    <state x="656" y="295" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598982396280">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="656" y="295" width="424" height="484" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1598982396280" />
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom" timestamp="1598977628437">
+      <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state width="1637" height="419" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1598890574884" />
-    <state width="1637" height="419" key="GridCell.Tab.0.center" timestamp="1598890574884">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1567" height="269" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1598977628437" />
+    <state width="1567" height="269" key="GridCell.Tab.0.center" timestamp="1598977628437">
+      <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state width="1637" height="419" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1598890574884" />
-    <state width="1637" height="419" key="GridCell.Tab.0.left" timestamp="1598890574884">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1567" height="269" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1598977628437" />
+    <state width="1567" height="269" key="GridCell.Tab.0.left" timestamp="1598977628437">
+      <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state width="1637" height="419" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1598890574884" />
-    <state width="1637" height="419" key="GridCell.Tab.0.right" timestamp="1598890574884">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1567" height="269" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1598977628437" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right" timestamp="1598977628437">
+      <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state width="1637" height="419" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598890574884" />
+    <state width="1567" height="269" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1598977628437" />
     <state width="1637" height="419" key="GridCell.Tab.1.bottom" timestamp="1598890574765">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -241,6 +306,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1637" height="419" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1598890574765" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1599074219813">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/67.27.1613.1023@67.27.1613.1023" timestamp="1599074219813" />
     <state x="372" y="250" key="SettingsEditor" timestamp="1598891174569">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -255,6 +324,10 @@
     </state>
     <state x="553" y="337" width="700" height="670" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1598889026567" />
     <state x="598" y="368" width="672" height="678" key="search.everywhere.popup/67.27.1613.1023@67.27.1613.1023" timestamp="1598707877694" />
+    <state x="598" y="451" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599072869737">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="598" y="451" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1599072869737" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
